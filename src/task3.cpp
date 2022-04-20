@@ -15,7 +15,7 @@ public:
     UserRequest()
     {
         std::vector<cpr::Pair> userHeadersPairs;
-        std::cout << "Waiting for users pairs to add in request header:" << std::endl;
+        std::cout << "Waiting for users pairs to add in request payload:" << std::endl;
         while (1)
         {
             std::string argument, value;
